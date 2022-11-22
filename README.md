@@ -1,6 +1,5 @@
 <img align="right" alt="img" src="https://user-images.githubusercontent.com/75348924/202714183-134a8600-6541-4a1f-a569-ad01e5195400.png" width="" height="auto" />
 
-[Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
 
 # EVALUACIÓN PRÁCTICA
 
@@ -49,6 +48,57 @@ El navegador envía una petición de documento HTML al servidor (GET). Entonces 
 
 Se utilizan para la transferencia de datos estructurados entre un servidor de Web y una aplicación Web.
 
+El XML se basa en el uso de etiquetas. Estas pueden ser vacíos o tener contenido y otros elementos. Siempre se encuentran entre <> y se cierran con </>.
+Hoy en día, es uno de los más usados por aquellos que se dedican a la gestión de proyectos empresariales.
+
+El formato JSON (JavaScript Object Notation) es un formato abierto utilizado como alternativa al XML. El formato ganó popularidad en servicios de la Web, dado que consigue transmitir una gran cantidad de información entre el cliente y el servidor utilizando una menor cantidad de caracteres.
+
+Estrucutra JSON
+
+```JSON
+{
+ "Usuario 1": {
+  "Id": "1",
+  "Nombre": "William",
+  "ImgPerfil": "Url"
+ },
+ "Usuario 2": {
+  "Id": "2",
+  "Nombre": "Hideo",
+  "ImgPerfil": "Url"
+ },
+ "Usuario 3": {
+  "Id": "3",
+  "Nombre": "Kojima",
+  "ImgPerfil": "Url"
+ }
+}
+```
+
+Estructura XML
+
+```XML
+<libreria>
+    <libro categoría="COOKING">
+        <título lang="en">Everyday Italian</título>
+        <autor>Giada De Laurentiis</autor>
+        <año>2005</año>
+        <precio>30.00</precio>
+    </libro>
+    <libro categoría="INFANTIL">
+        <título lang="en">Harry Potter</título>
+        <autor>J K. Rowling</autor>
+        <año>2005</año>
+        <precio>29.99</precio>
+    </libro>
+    <libro categoría="WEB">
+        <título lang="en">Learning XML</título>
+        <autor>Erik T. Ray</autor>
+        <año>2003</año>
+        <precio>39.95</precio>
+    </libro>
+</libreria>
+```
 
 - 9	  <b>Explicar brevemente el estándar SOAP</b>
 
@@ -59,3 +109,6 @@ Se utilizan para la transferencia de datos estructurados entre un servidor de We
 
 ## EJERCICIO 3
 ## EJERCICIO 4
+
+[Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
+
