@@ -155,3 +155,17 @@ La única diferencia es el nuevo dato agregado a causa de la request POST del pu
 
 [Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
 
+## EJERCICIO 6
+
+<b>Soluciones de Salesforce</b>
+
+A.	¿Qué es Salesforce?
+
+B.	¿Qué es Sales Cloud?
+
+C.	¿Qué es Service Cloud?
+
+D.	¿Qué es Health Cloud?
+
+E.	¿Qué es Marketing Cloud?
+
