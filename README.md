@@ -112,6 +112,25 @@ RESTful hace referencia a un servicio web que implementa la arquitectura REST.
 
 - 11	<b>¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?</b>
 
+ Los headers HTTP permiten al cliente y al servidor enviar información adicional junto a una petición o respuesta.
+ 
+ Content-Type dice al cliente que tipo de contenido será retornado.
+ 
+ Por ejemplo
+ 
+ ```
+application/pdf
+application/xml
+audio/ogg
+audio/mpeg
+image/apng
+image/jpeg (.jpg, .jpeg, .jfif, .pjpeg, .pjp)
+text/css
+text/html
+text/php
+text/xml
+video/mp4
+```
 
 ## EJERCICIO 3
 ## EJERCICIO 4
