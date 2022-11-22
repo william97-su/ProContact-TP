@@ -83,26 +83,31 @@ Estructura XML
         <título lang="en">Everyday Italian</título>
         <autor>Giada De Laurentiis</autor>
         <año>2005</año>
-        <precio>30.00</precio>
+        <precio>3000</precio>
     </libro>
     <libro categoría="INFANTIL">
         <título lang="en">Harry Potter</título>
         <autor>J K. Rowling</autor>
         <año>2005</año>
-        <precio>29.99</precio>
+        <precio>299</precio>
     </libro>
     <libro categoría="WEB">
         <título lang="en">Learning XML</título>
         <autor>Erik T. Ray</autor>
         <año>2003</año>
-        <precio>39.95</precio>
+        <precio>100</precio>
     </libro>
 </libreria>
 ```
 
 - 9	  <b>Explicar brevemente el estándar SOAP</b>
 
+SOAP es un protocolo estándar que se creó originalmente para posibilitar la comunicación entre las aplicaciones que se diseñaban con diferentes lenguajes y en distintas plataformas.
+Los servicios web de SOAP ofrecen seguridad y cumplimiento de las operaciones integrados que coinciden con muchas de las necesidades empresariales, pero que también los hacen más pesados. Los mensajes SOAP de retorno deben ser documentos XML.
+
 - 10	<b>Explicar brevemente el estándar REST Full</b>
+- 
+RESTful es un conjunto de principios arquitectónicos que se ajusta a las necesidades de las aplicaciones móviles y los servicios web ligeros. Dado que se trata de un conjunto de pautas, la implementación de las recomendaciones depende de los desarrolladores.
 
 - 11	<b>¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?</b>
 
