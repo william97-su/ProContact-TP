@@ -170,7 +170,45 @@ Sales Cloud es un módulo de Salesforce que permite gestionar de forma eficiente
 
 C.	¿Qué es Service Cloud?
 
+Service Cloud es una solución completa de atención al cliente creada especialmente para dar soporte a los clientes a cualquier hora y en cualquier lugar, por teléfono, correo electrónico, redes sociales, chats y páginas o comunidades de auto ayuda.
+
 D.	¿Qué es Health Cloud?
 
+Health Cloud es una plataforma especialmente diseñada para la gestión clínica de pacientes , la cual ofrece: una comunicación más personalizado entre pacientes, miembros, proveedores y prestadores de servicios de salud, y un mejor ajuste a los procesos, servicios y datos médicos.
+
 E.	¿Qué es Marketing Cloud?
+
+Es un módulo de Salesforce que contiene múltiples herramientas para mejorar la interacción de las marcas con sus clientes y potenciales a través de todo tipo de canales. Está, obviamente, enfocada en el área de negocio de Marketing.
+
+<b>Funcionalidades de Salesforce</b>
+
+A.	¿Qué es un RecordType?
+
+B.	¿Qué es un ReportType?
+
+C.	¿Qué es un Page Layout?
+
+D.	¿Qué es un Compact Layout?
+
+E.	¿Qué es un Perfil?
+
+F.	¿Qué es un Rol?
+
+G.	¿Qué es un Validation Rule?
+
+H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?
+
+I.	¿Qué es un Sandbox?
+
+J.	¿Qué es un ChangeSet?
+
+K.	¿Para qué sirve el import Wizard de Salesforce?
+
+L.	¿Para qué sirve la funcionalidad Web to Lead?
+
+M.	¿Para qué sirve la funcionalidad Web to Case?
+
+N.	¿Para qué sirve la funcionalidad Omnichannel?
+
+O.	¿Para qué sirve la funcionalidad Chatter?
 
