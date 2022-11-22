@@ -146,6 +146,11 @@ video/mp4
 
 <img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/202812392-b06aacc1-76c6-40f1-8d9a-57b0e3d45e13.PNG" width="" height="auto" />
 
+<b>¿Qué diferencias se observan entre las llamadas el punto 1 y 3?</b>
+
+La única diferencia es el nuevo dato agregado a causa de la request POST del punto 2, al realizar nuevamente la request GET obtuve el objeto actualizado con el impacto del POST ya incluido.
+
+
 ## EJERCICIO 4
 
 [Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
