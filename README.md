@@ -107,7 +107,8 @@ Los servicios web de SOAP ofrecen seguridad y cumplimiento de las operaciones in
 
 - 10	<b>Explicar brevemente el estándar REST Full</b>
 
-RESTful es un conjunto de principios arquitectónicos que se ajusta a las necesidades de las aplicaciones móviles y los servicios web ligeros. Dado que se trata de un conjunto de pautas, la implementación de las recomendaciones depende de los desarrolladores.
+REST es un conjunto de principios arquitectónicos que se ajusta a las necesidades de las aplicaciones móviles y los servicios web ligeros. Dado que se trata de un conjunto de pautas, la implementación de las recomendaciones depende de los desarrolladores. Cuando se envía una solicitud de datos a una API de REST, se suele hacer a través de un protocolo de transferencia de hipertexto.
+RESTful hace referencia a un servicio web que implementa la arquitectura REST.
 
 - 11	<b>¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?</b>
 
