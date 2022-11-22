@@ -9,7 +9,7 @@
 
 Un servidor HTTP es una pieza de software capaz de comprender URLs (direcciones web) y HTTP (el protocolo que tu navegador usa para obtener las páginas web). Un servidor HTTP puede ser accedido a través de los nombres de dominio de los sitios web que aloja, y entrega el contenido de esos sitios web alojados al dispositivo del usuario final.
 
-- 2	<b>¿Qué son los verbos HTTP? Mencionar los más conocidos</b>
+- 2	<b>¿Qué son los verbos HTTP? Mencionar los más conocidos?</b>
 
 Son un conjunto de métodos de petición para indicar la acción que se desea realizar para un recurso determinado, los más conocidos son: GET utilizado para consultar un recurso, su característica es que no deben producir nuevos registros, ni modificar los ya existentes. POST son sólo para crear recursos nuevos. Cada llamada con POST debería producir un nuevo recurso. PUT/PATCH son muy similares ya que ambos se usan para modificar un recurso existente. PUT se utiliza para remplazar por completo un recurso mientras que PATCH es utilizado para aplicar modificaciones parciales a un recurso. DELETE borra un recurso en específico.
 
@@ -194,11 +194,15 @@ E.	¿Qué es un Perfil?
 
 F.	¿Qué es un Rol?
 
+Es una función que determina los niveles de acceso que tienen los usuarios.
+
 G.	¿Qué es un Validation Rule?
 
 H.	¿Qué diferencia hay entre una relación Master Detail y Lookup?
 
 I.	¿Qué es un Sandbox?
+
+Una sandbox es una medida de seguridad que permite testar un software nuevo en un entorno aislado y evitar que ejecutarlo afecte al resto del sistema.
 
 J.	¿Qué es un ChangeSet?
 
