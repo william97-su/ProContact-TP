@@ -161,7 +161,12 @@ La única diferencia es el nuevo dato agregado a causa de la request POST del pu
 
 A.	¿Qué es Salesforce?
 
+Es una plataforma que permite gestionar la información de los clientes de una compañia (CRM),
+Entrega software a medida del cliente(gestiona ventas, procesos de creacion y realizacion de pedidos, servicio de atencion al cliente, gestion de clientes existentes y potenciales, conectar con empleados y optimizar procesos).
+
 B.	¿Qué es Sales Cloud?
+
+Sales Cloud es un módulo de Salesforce que permite gestionar de forma eficiente las relaciones con tus clientes y la colaboración entre equipos comerciales. Ofrece automatización y productividad para la fuerza de ventas optimizando los procesos comerciales y alineándolos con el marketing de tu empresa y servicio de atención al cliente.
 
 C.	¿Qué es Service Cloud?
 
