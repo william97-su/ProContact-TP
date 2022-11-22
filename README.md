@@ -116,7 +116,7 @@ RESTful hace referencia a un servicio web que implementa la arquitectura REST.
  
  Content-Type dice al cliente que tipo de contenido será retornado.
  
- Por ejemplo
+ Por ejemplo:
  
  ```
 application/pdf
@@ -133,6 +133,19 @@ video/mp4
 ```
 
 ## EJERCICIO 3
+
+- <b>1	Realizar un request GET</b>
+
+<img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/202811121-37e3c9cc-c277-44bf-aa70-ce46d7f31820.PNG" width="" height="auto" />
+
+- <b>2	Realizar un request POST </b>
+
+<img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/202811819-31f0119c-d600-45b8-ae52-82625f4a793a.PNG" width="" height="auto" />
+
+- <b>3	Realizar nuevamente un request GET </b>
+
+<img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/202812392-b06aacc1-76c6-40f1-8d9a-57b0e3d45e13.PNG" width="" height="auto" />
+
 ## EJERCICIO 4
 
 [Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
