@@ -53,7 +53,7 @@ Hoy en día, es uno de los más usados por aquellos que se dedican a la gestión
 
 El formato JSON (JavaScript Object Notation) es un formato abierto utilizado como alternativa al XML. El formato ganó popularidad en servicios de la Web, dado que consigue transmitir una gran cantidad de información entre el cliente y el servidor utilizando una menor cantidad de caracteres.
 
-Estrucutra JSON
+<b>Estrucutra JSON</b>
 
 ```JSON
 {
@@ -75,7 +75,7 @@ Estrucutra JSON
 }
 ```
 
-Estructura XML
+<b>Estructura XML</b>
 
 ```XML
 <libreria>
@@ -106,7 +106,7 @@ SOAP es un protocolo estándar que se creó originalmente para posibilitar la co
 Los servicios web de SOAP ofrecen seguridad y cumplimiento de las operaciones integrados que coinciden con muchas de las necesidades empresariales, pero que también los hacen más pesados. Los mensajes SOAP de retorno deben ser documentos XML.
 
 - 10	<b>Explicar brevemente el estándar REST Full</b>
-- 
+
 RESTful es un conjunto de principios arquitectónicos que se ajusta a las necesidades de las aplicaciones móviles y los servicios web ligeros. Dado que se trata de un conjunto de pautas, la implementación de las recomendaciones depende de los desarrolladores.
 
 - 11	<b>¿Qué son los headers en un request? ¿Para qué se utiliza el key Content-type en un header?</b>
