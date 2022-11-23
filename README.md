@@ -155,6 +155,253 @@ La única diferencia es el nuevo dato agregado a causa de la request POST del pu
 
 [Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
 
+## EJERCICIO 5
+
+Explicar qué son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan al resto cada uno de los siguientes objetos de Salesforce.
+
+1. **Lead:** Representan a personas que están interesadas en el producto o servicio. Provienen de internet, tarjetas de contacto que el equipo almacena, asistentes de conferencias, entre otros. 
+
+    - Address
+    - Annual Revenue
+    - Campaign
+    - Clean Status
+    - Company
+    - Company D-U-N-S Number
+    - Created By
+    - Current Generator(s)
+    - D&B Company
+    - Data.com Key
+    - Description
+    - Do Not Call
+    - Email & Email Opt Out
+    - Fax & Fax Opt Out
+    - Individual
+    - Industry
+    - Last Modified By
+    - Last Transfer Date
+    - Lead Owner
+    - Lead Source
+    - Lead Status
+    - Mobile
+    - Name
+    - No. of Employees
+    - Number of Locations
+    - Phone
+    - Primary
+    - Product Interest
+    - Rating
+    - SIC Code
+    - Title
+    - Website
+
+2. **Account:** Representan compañías con las que se hace negocio o relacionadas con el mismo (clientes, socios, competencia).
+
+    - Account Name, Number, Owner, Site Source
+    - Active
+    - Annual Revenue
+    - Billing Address
+    - Clean Status
+    - Created By
+    - Customer Priority
+    - D&B Company
+    - Data.com Key
+    - Description
+    - D-U-N-S Number
+    - Einstein Account Tier
+    - Employees
+    - Fax
+    - Industry
+    - Last Modified By
+    - NAICS Code & Description
+    - Number of Locations
+    - Ownership
+    - Parent Account
+    - Phone
+    - Rating 
+    - Shipping Address
+    - SIC Code & Description
+    - SLA, Expiration Date, Serial Number
+    - Ticker Symbol
+    - Tradestyle
+    - Type
+    - Upsell Opportunity
+    - Website
+    - Year Started
+
+3. **Contact:** Son personas asociadas con una cuenta, con las que se requiere comunicación y relaciones de negocio. Provienen de Leads u otras fuentes y tienen especial utilidad en permitir darle seguimiento a la información que provoca relaciones efectivas. 
+
+    - Account Name
+    - Assistant & Asst. Phone
+    - Birthdate
+    - Clean Status
+    - Contact Owner
+    - Created By
+    - Data.com Key
+    - Department
+    - Description
+    - Do Not Call
+    - Email & Email Opt out
+    - Fax & Fax Opt Out
+    - Home Phone
+    - Individual
+    - Languages
+    - Lasy Modified By
+    - Last Stay-in-Touch Request Date & Last Stay-in-Touch Save Date
+    - Lead Source
+    - Level
+    - Mailing Address
+    - Mobile
+    - Name
+    - Reports To
+    - Stage
+    - Title
+
+4. **Opportunity:** Son tratos cualificados con los que el equipo de ventas está trabajando. Ayudan a monitorear la etapa en la que se encuentra el proceso de venta. Una oportunidad se suele crear cuando un Lead es convertido.
+
+    - Account Name
+    - Amount
+    - Close Date
+    - Contract
+    - Created By
+    - Current Generator(s)
+    - Delivery/Installation Status
+    - Description
+    - Expected Revenue
+    - Forecast Category
+    - Lasy Modified By
+    - Lead Source
+    - Main Competitor(s)
+    - Next Step
+    - Opportunity Name, Owner, Score
+    - Order Number
+    - Price Book
+    - Primary Campaign Source
+    - Private
+    - Probability (%)
+    - Quantity
+    - Stage
+    - Tracking Number
+    - Type
+
+5. **Product:** Son artículos o servicios que se ofrecen a los clientes. Cada producto puede existir en múltiples Price Books con diferentes precios.
+ 
+    - Active
+    - Created By
+    - Display URL
+    - External Data Source
+    - External ID
+    - Last Modified By
+    - Product Code, Description, Family, Name, SKU
+    - Quantity Unit of Measure
+
+6. **Price Book:** Se trata de una lista de productos y sus respectivos precios. Existen dos tipos, el estándar que se conforma con la creación de los elementos de productos y el personalizado que se utiliza para ofrecer el mismo producto a distintos precios en diferentes mercados.
+
+    - Active
+    - Created By
+    - Description
+    - Is Standard Price Book
+    - Last Modified By
+    - Price Book Name
+
+7. **Quote:** Representa un presupuesto, es decir, los precios propuestos de los productos y servicios de la compañía. Un presupuesto se puede crear desde una oportunidad.
+
+    - Account Name
+    - Additional To & Additional To Name
+    - Bill To & Bill To Name
+    - Contact Name
+    - Contract
+    - Created By
+    - Description
+    - Discount
+    - Email 
+    - Expiration Date
+    - Fax 
+    - Grand Total
+    - Last Modified By
+    - Line Items
+    - Opportunity Name
+    - Owner Name
+    - Phone
+    - Quote Name, Number, PDF, To, To Name
+    - Shipping and Handling
+    - Shipping, To, To Name
+    - Status
+    - Subtotal
+    - Syncing
+    - Tax
+    - Total Price
+
+8. **Asset:** Mientras que el objeto de Product representa los productos que la compañía vende, los assets representan los productos específicos que los clientes han comprado. Es decir, los Assets se utilizan para guardar información de las adquisiciones de los clientes.
+
+    - Account
+    - Address
+    - Asset Level, Name, Owner
+    - Asset Provided By, Serviced By
+    - Competitor Asset
+    - Consequence of Failure
+    - Contact
+    - Created By & Last Modified By
+    - Current Amount, Lifecycle End Date, Monthly Recurring Revenue, Quantity
+    - Description
+    - Digital Asset Status
+    - External Id
+    - Has Lifecycle Management
+    - Install Date
+    - Internal Asset
+    - Lifecycle End Date
+
+9. **Case:** Un case se refiere a alguna pregunta, retroalimentación o inconveniente que proviene de un cliente. Tiene especialidad utilidad para identificar acciones que se pueden tomar para tener una mejor atención y conformidad del cliente. 
+
+    - Account Name
+    - Asset
+    - Business Hours
+    - Case Number, Origin, Owner, Reason
+    - Closed When Created
+    - Contact Email, Fax, Mobile, Name, Phone
+    - Created By
+    - Date/Time Closed & Opened
+    - Description
+    - Engineering Req Num
+    - Entitlement Name, Process End Time, Process Start Time
+    - Escalated
+    - Internal Comments
+    - Milestone Status & Status Icon
+    - Parent Case
+    - Potential Liability
+    - Priority
+    - Product
+    - Service Contract
+    - SLA Violation
+    - Status
+    - Stopped & Stopped Since
+    - Subject 
+    - Type
+    - Web Company, Email, Name, Phone
+
+
+10. **Article:** Los artículos capturan información acerca de los productos y servicios que se desean hacer disponible en la base de conocimiento. Pueden ser clasificados en categorías para facilitar el proceso de búsqueda y añadir funcionalidades de control de acceso. 
+
+
+    - Archived By & Date                                                   
+    - Article Number & Type ID
+    - Case Association Account
+    - Created By & Date
+    - Custom Fields
+    - First Published Date
+    - Knowledge Article Version
+    - Last Modified By, Date, Published Date
+    - Primary Language
+    - Article Type
+    - Is Latest Version
+    - Summary
+    - Title
+    - Validation Status
+    - Total Views
+    - Owner
+    
+
+**Diagrama de relaciones**
+
 ## EJERCICIO 6
 
 <b>Soluciones de Salesforce</b>
