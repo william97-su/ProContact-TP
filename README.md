@@ -161,6 +161,8 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
 
 1. Lead: Representa un prospecto o cliente potencial. 
 
+<details><summary>Campos</summary>
+
     * Address
     * Annual Revenue
     * Campaign
@@ -193,8 +195,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     * SIC Code
     * Title
     * Website
-
+ 
+</details>
+ 
 2. Account: Representan compañías con las que se hace negocio o relacionadas con el mismo (clientes, socios, competencia).
+
+<details><summary>Campos</summary>
 
     - Account Name, Number, Owner, Site Source
     - Active
@@ -227,9 +233,13 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Upsell Opportunity
     - Website
     - Year Started
+ 
+</details>
 
 3. Contact: Son personas asociadas con una cuenta, con las que se requiere comunicación y relaciones de negocio. Provienen de Leads u otras fuentes y tienen especial utilidad en permitir darle seguimiento a la información que provoca relaciones efectivas. 
 
+<details><summary>Campos</summary>
+ 
     - Account Name
     - Assistant & Asst. Phone
     - Birthdate
@@ -255,8 +265,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Reports To
     - Stage
     - Title
+ 
+</details>
 
 4. Opportunity: Son tratos cualificados con los que el equipo de ventas está trabajando. Ayudan a monitorear la etapa en la que se encuentra el proceso de venta. Una oportunidad se suele crear cuando un Lead es convertido.
+
+<details><summary>Campos</summary>
 
     - Account Name
     - Amount
@@ -282,8 +296,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Stage
     - Tracking Number
     - Type
+ 
+</details>
 
 5. Product: Son artículos o servicios que se ofrecen a los clientes. Cada producto puede existir en múltiples Price Books con diferentes precios.
+ 
+ <details><summary>Campos</summary>
  
     - Active
     - Created By
@@ -293,8 +311,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Last Modified By
     - Product Code, Description, Family, Name, SKU
     - Quantity Unit of Measure
+ 
+</details>
 
 6. Price Book: Se trata de una lista de productos y precios.
+
+<details><summary>Campos</summary>
 
     - Active
     - Created By
@@ -302,8 +324,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Is Standard Price Book
     - Last Modified By
     - Price Book Name
+ 
+</details>
 
 7. Quote: Representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios.
+
+<details><summary>Campos</summary>
 
     - Account Name
     - Additional To & Additional To Name
@@ -330,8 +356,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Syncing
     - Tax
     - Total Price
+ 
+</details>
 
 8. Asset: Mientras que el objeto de Product representa los productos que la compañía vende, los assets representan los productos específicos que los clientes han comprado. Es decir, los Assets se utilizan para guardar información de las adquisiciones de los clientes.
+
+<details><summary>Campos</summary>
 
     - Account
     - Address
@@ -349,9 +379,13 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Install Date
     - Internal Asset
     - Lifecycle End Date
+ 
+</details>
 
 9. Case: Un case se refiere a alguna pregunta, retroalimentación o inconveniente que proviene de un cliente. Tiene especialidad utilidad para identificar acciones que se pueden tomar para tener una mejor atención y conformidad del cliente. 
 
+<details><summary>Campos</summary>
+ 
     - Account Name
     - Asset
     - Business Hours
@@ -377,10 +411,12 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Subject 
     - Type
     - Web Company, Email, Name, Phone
-
+ 
+</details>
 
 10. Article: Los artículos capturan información acerca de los productos y servicios que se desean hacer disponible en la base de conocimiento. Pueden ser clasificados en categorías para facilitar el proceso de búsqueda y añadir funcionalidades de control de acceso. 
 
+<details><summary>Campos</summary>
 
     - Archived By & Date                                                   
     - Article Number & Type ID
@@ -398,8 +434,9 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Validation Status
     - Total Views
     - Owner
+ 
+</details>
     
-
 **Diagrama de relaciones**
 
 <img align="" alt="img" src="https://raw.githubusercontent.com/william97-su/ProContact-TP/main/Diagrama.png" width="" height="auto" />
@@ -558,4 +595,7 @@ Enterprise Resource Planning (ERP) es un tipo de software que las organizaciones
 - ¿Salesforce es un ERP? 
 
 Salesforce Billing complementa las plataformas de planificación de recursos de negocio (ERP) mediante la conversión de los datos de la gestión de procesos desde el prospecto hasta el pedido de Salesforce CPQ en datos de transacciones.
+
+## EJERCICIO 7
+
 
