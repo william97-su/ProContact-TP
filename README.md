@@ -159,7 +159,7 @@ La única diferencia es el nuevo dato agregado a causa de la request POST del pu
 
 Explicar qué son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan al resto cada uno de los siguientes objetos de Salesforce.
 
-1. **Lead:** Representa un prospecto o cliente potencial. 
+1. Lead: Representa un prospecto o cliente potencial. 
 
     * Address
     * Annual Revenue
@@ -194,7 +194,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     * Title
     * Website
 
-2. **Account:** Representan compañías con las que se hace negocio o relacionadas con el mismo (clientes, socios, competencia).
+2. Account: Representan compañías con las que se hace negocio o relacionadas con el mismo (clientes, socios, competencia).
 
     - Account Name, Number, Owner, Site Source
     - Active
@@ -228,7 +228,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Website
     - Year Started
 
-3. **Contact:** Son personas asociadas con una cuenta, con las que se requiere comunicación y relaciones de negocio. Provienen de Leads u otras fuentes y tienen especial utilidad en permitir darle seguimiento a la información que provoca relaciones efectivas. 
+3. Contact: Son personas asociadas con una cuenta, con las que se requiere comunicación y relaciones de negocio. Provienen de Leads u otras fuentes y tienen especial utilidad en permitir darle seguimiento a la información que provoca relaciones efectivas. 
 
     - Account Name
     - Assistant & Asst. Phone
@@ -256,7 +256,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Stage
     - Title
 
-4. **Opportunity:** Son tratos cualificados con los que el equipo de ventas está trabajando. Ayudan a monitorear la etapa en la que se encuentra el proceso de venta. Una oportunidad se suele crear cuando un Lead es convertido.
+4. Opportunity: Son tratos cualificados con los que el equipo de ventas está trabajando. Ayudan a monitorear la etapa en la que se encuentra el proceso de venta. Una oportunidad se suele crear cuando un Lead es convertido.
 
     - Account Name
     - Amount
@@ -283,7 +283,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Tracking Number
     - Type
 
-5. **Product:** Son artículos o servicios que se ofrecen a los clientes. Cada producto puede existir en múltiples Price Books con diferentes precios.
+5. Product: Son artículos o servicios que se ofrecen a los clientes. Cada producto puede existir en múltiples Price Books con diferentes precios.
  
     - Active
     - Created By
@@ -294,7 +294,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Product Code, Description, Family, Name, SKU
     - Quantity Unit of Measure
 
-6. **Price Book:** Se trata de una lista de productos y precios.
+6. Price Book: Se trata de una lista de productos y precios.
 
     - Active
     - Created By
@@ -303,7 +303,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Last Modified By
     - Price Book Name
 
-7. **Quote:** Representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios.
+7. Quote: Representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios.
 
     - Account Name
     - Additional To & Additional To Name
@@ -331,7 +331,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Tax
     - Total Price
 
-8. **Asset:** Mientras que el objeto de Product representa los productos que la compañía vende, los assets representan los productos específicos que los clientes han comprado. Es decir, los Assets se utilizan para guardar información de las adquisiciones de los clientes.
+8. Asset: Mientras que el objeto de Product representa los productos que la compañía vende, los assets representan los productos específicos que los clientes han comprado. Es decir, los Assets se utilizan para guardar información de las adquisiciones de los clientes.
 
     - Account
     - Address
@@ -350,7 +350,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Internal Asset
     - Lifecycle End Date
 
-9. **Case:** Un case se refiere a alguna pregunta, retroalimentación o inconveniente que proviene de un cliente. Tiene especialidad utilidad para identificar acciones que se pueden tomar para tener una mejor atención y conformidad del cliente. 
+9. Case: Un case se refiere a alguna pregunta, retroalimentación o inconveniente que proviene de un cliente. Tiene especialidad utilidad para identificar acciones que se pueden tomar para tener una mejor atención y conformidad del cliente. 
 
     - Account Name
     - Asset
@@ -379,7 +379,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Web Company, Email, Name, Phone
 
 
-10. **Article:** Los artículos capturan información acerca de los productos y servicios que se desean hacer disponible en la base de conocimiento. Pueden ser clasificados en categorías para facilitar el proceso de búsqueda y añadir funcionalidades de control de acceso. 
+10. Article: Los artículos capturan información acerca de los productos y servicios que se desean hacer disponible en la base de conocimiento. Pueden ser clasificados en categorías para facilitar el proceso de búsqueda y añadir funcionalidades de control de acceso. 
 
 
     - Archived By & Date                                                   
@@ -402,30 +402,30 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
 
 **Diagrama de relaciones**
 
-<img align="right" alt="img" src="https://raw.githubusercontent.com/william97-su/ProContact-TP/main/Diagrama.png" width="" height="auto" />
+<img align="" alt="img" src="https://raw.githubusercontent.com/william97-su/ProContact-TP/main/Diagrama.png" width="" height="auto" />
 
 ## EJERCICIO 6
 
 <b>Soluciones de Salesforce</b>
 
-A.	¿Qué es Salesforce?
+-	¿Qué es Salesforce?
 
 Es una plataforma que permite gestionar la información de los clientes de una compañia (CRM),
 Entrega software a medida del cliente(gestiona ventas, procesos de creacion y realizacion de pedidos, servicio de atencion al cliente, gestion de clientes existentes y potenciales, conectar con empleados y optimizar procesos).
 
-B.	¿Qué es Sales Cloud?
+-	¿Qué es Sales Cloud?
 
 Sales Cloud es un módulo de Salesforce que permite gestionar de forma eficiente las relaciones con tus clientes y la colaboración entre equipos comerciales. Ofrece automatización y productividad para la fuerza de ventas optimizando los procesos comerciales y alineándolos con el marketing de tu empresa y servicio de atención al cliente.
 
-C.	¿Qué es Service Cloud?
+-	¿Qué es Service Cloud?
 
 Service Cloud es una solución completa de atención al cliente creada especialmente para dar soporte a los clientes a cualquier hora y en cualquier lugar, por teléfono, correo electrónico, redes sociales, chats y páginas o comunidades de auto ayuda.
 
-D.	¿Qué es Health Cloud?
+-	¿Qué es Health Cloud?
 
 Health Cloud es una plataforma especialmente diseñada para la gestión clínica de pacientes , la cual ofrece: una comunicación más personalizado entre pacientes, miembros, proveedores y prestadores de servicios de salud, y un mejor ajuste a los procesos, servicios y datos médicos.
 
-E.	¿Qué es Marketing Cloud?
+-	¿Qué es Marketing Cloud?
 
 Es un módulo de Salesforce que contiene múltiples herramientas para mejorar la interacción de las marcas con sus clientes y potenciales a través de todo tipo de canales. Está, obviamente, enfocada en el área de negocio de Marketing.
 
