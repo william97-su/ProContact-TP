@@ -402,6 +402,8 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
 
 **Diagrama de relaciones**
 
+<img align="right" alt="img" src="https://raw.githubusercontent.com/william97-su/ProContact-TP/main/Diagrama.png" width="" height="auto" />
+
 ## EJERCICIO 6
 
 <b>Soluciones de Salesforce</b>
@@ -463,7 +465,9 @@ En lookup, ambos objetos no comparten propiedades entre ellos, lo que significa 
 
 En Master-detail, ambos objetos comparten propiedades entre sí, lo que significa que están estrechamente acoplados.
 
-- ¿Qué es un Sandbox? Un Sandbox es una copia de su organización en un entorno aislado que puede usar para distintos fines, como pruebas y capacitación.
+- ¿Qué es un Sandbox? 
+ 
+Un Sandbox es una copia de su organización en un entorno aislado que puede usar para distintos fines, como pruebas y capacitación.
 
 - ¿Qué es un ChangeSet?
 
@@ -471,7 +475,7 @@ Un conjunto de cambios entrantes es un conjunto de cambios que se ha enviado des
 
 - ¿Para qué sirve el import Wizard de Salesforce?
 
-Se puede utilizar para importar un máximo de 50,000 registros
+Se puede utilizar para importar un máximo de 50,000 registros.
 
 - ¿Para qué sirve la funcionalidad Web to Lead?
 
@@ -509,7 +513,7 @@ on-premise se refiere a que la instalación del programa se ha realizado de mane
 
 - ¿Qué es un pipeline de ventas?
 
-El pipeline de ventas es, precisamente, el proceso de actividades y estrategias que necesita un vendedor para acelerar el ciclo de ventas, transformando clientes potenciales (aquellos que acaban de conocer tu marca o servicio) en clientes
+El pipeline de ventas es, precisamente, el proceso de actividades y estrategias que necesita un vendedor para acelerar el ciclo de ventas, transformando clientes potenciales (aquellos que acaban de conocer tu marca o servicio) en clientes.
 
 - ¿Qué es un funnel de ventas?
 
