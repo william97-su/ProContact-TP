@@ -163,38 +163,38 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
 
 <details><summary>Campos</summary>
 
-    * Address
-    * Annual Revenue
-    * Campaign
-    * Clean Status
-    * Company
-    * Company D-U-N-S Number
-    * Created By
-    * Current Generator(s)
-    * D&B Company
-    * Data.com Key
-    * Description
-    * Do Not Call
-    * Email & Email Opt Out
-    * Fax & Fax Opt Out
-    * Individual
-    * Industry
-    * Last Modified By
-    * Last Transfer Date
-    * Lead Owner
-    * Lead Source
-    * Lead Status
-    * Mobile
-    * Name
-    * No. of Employees
-    * Number of Locations
-    * Phone
-    * Primary
-    * Product Interest
-    * Rating
-    * SIC Code
-    * Title
-    * Website
+    - Address
+    - Annual Revenue
+    - Campaign
+    - Clean Status
+    - Company
+    - Company D-U-N-S Number
+    - Created By
+    - Current Generator(s)
+    - D&B Company
+    - Data.com Key
+    - Description
+    - Do Not Call
+    - Email & Email Opt Out
+    - Fax & Fax Opt Out
+    - Individual
+    - Industry
+    - Last Modified By
+    - Last Transfer Date
+    - Lead Owner
+    - Lead Source
+    - Lead Status
+    - Mobile
+    - Name
+    - No. of Employees
+    - Number of Locations
+    - Phone
+    - Primary
+    - Product Interest
+    - Rating
+    - SIC Code
+    - Title
+    - Website
  
 </details>
  
