@@ -159,40 +159,40 @@ La única diferencia es el nuevo dato agregado a causa de la request POST del pu
 
 Explicar qué son conceptualmente, qué datos almacenan en forma estándar y cómo se relacionan al resto cada uno de los siguientes objetos de Salesforce.
 
-1. **Lead:** Representan a personas que están interesadas en el producto o servicio. Provienen de internet, tarjetas de contacto que el equipo almacena, asistentes de conferencias, entre otros. 
+1. **Lead:** Representa un prospecto o cliente potencial. 
 
-    - Address
-    - Annual Revenue
-    - Campaign
-    - Clean Status
-    - Company
-    - Company D-U-N-S Number
-    - Created By
-    - Current Generator(s)
-    - D&B Company
-    - Data.com Key
-    - Description
-    - Do Not Call
-    - Email & Email Opt Out
-    - Fax & Fax Opt Out
-    - Individual
-    - Industry
-    - Last Modified By
-    - Last Transfer Date
-    - Lead Owner
-    - Lead Source
-    - Lead Status
-    - Mobile
-    - Name
-    - No. of Employees
-    - Number of Locations
-    - Phone
-    - Primary
-    - Product Interest
-    - Rating
-    - SIC Code
-    - Title
-    - Website
+    * Address
+    * Annual Revenue
+    * Campaign
+    * Clean Status
+    * Company
+    * Company D-U-N-S Number
+    * Created By
+    * Current Generator(s)
+    * D&B Company
+    * Data.com Key
+    * Description
+    * Do Not Call
+    * Email & Email Opt Out
+    * Fax & Fax Opt Out
+    * Individual
+    * Industry
+    * Last Modified By
+    * Last Transfer Date
+    * Lead Owner
+    * Lead Source
+    * Lead Status
+    * Mobile
+    * Name
+    * No. of Employees
+    * Number of Locations
+    * Phone
+    * Primary
+    * Product Interest
+    * Rating
+    * SIC Code
+    * Title
+    * Website
 
 2. **Account:** Representan compañías con las que se hace negocio o relacionadas con el mismo (clientes, socios, competencia).
 
@@ -294,7 +294,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Product Code, Description, Family, Name, SKU
     - Quantity Unit of Measure
 
-6. **Price Book:** Se trata de una lista de productos y sus respectivos precios. Existen dos tipos, el estándar que se conforma con la creación de los elementos de productos y el personalizado que se utiliza para ofrecer el mismo producto a distintos precios en diferentes mercados.
+6. **Price Book:** Se trata de una lista de productos y precios.
 
     - Active
     - Created By
@@ -303,7 +303,7 @@ Explicar qué son conceptualmente, qué datos almacenan en forma estándar y có
     - Last Modified By
     - Price Book Name
 
-7. **Quote:** Representa un presupuesto, es decir, los precios propuestos de los productos y servicios de la compañía. Un presupuesto se puede crear desde una oportunidad.
+7. **Quote:** Representa una cotización, que es un registro que muestra los precios propuestos para productos y servicios.
 
     - Account Name
     - Additional To & Additional To Name
