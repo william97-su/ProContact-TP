@@ -153,6 +153,8 @@ La única diferencia es el nuevo dato agregado a causa de la request POST del pu
 
 ## EJERCICIO 4
 
+<img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/208189879-4c382b68-b41e-4dd3-b300-c2b827426aaf.PNG" width="" height="auto" />
+
 [Cuenta de Trailhead](https://trailblazer.me/id/gwilliam)
 
 ## EJERCICIO 5
