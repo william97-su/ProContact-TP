@@ -3,6 +3,12 @@
 
 # EVALUACIÓN PRÁCTICA
 
+## EJERCICIO 1
+
+-	<b>Instalación del ambiente</b>
+
+<img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/208194346-9ba05416-7725-4448-ba3b-e24183235378.PNG" width="" height="%80" />
+
 ## EJERCICIO 2
 
 - 1	<b>¿Qué es un servidor HTTP? </b>
