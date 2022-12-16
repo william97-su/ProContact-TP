@@ -1,0 +1,25 @@
+trigger PutEmailById on Contact (before insert, after update) {
+    
+    if (Trigger.isInsert){
+        if(Trigger.isBefore){
+            for(Contact cont:Trigger.new){
+    			if(cont.idprocontacto__c != null){   
+                 EmailLocator.getEmailById(cont.idprocontacto__c);
+                
+       		 	}      
+    		}
+        }
+    }
+    else if(Trigger.isUpdate){
+        	if(Trigger.isAfter){
+                for(Contact cont:Trigger.new){
+                     if(cont.idprocontacto__c != Trigger.oldMap.get(cont.Id).idprocontacto__c) {
+                        if(cont.idprocontacto__c != null){   
+                         EmailLocator.getEmailById(cont.idprocontacto__c);
+                        }
+                	 }      
+            	}
+        	}
+    }
+         
+}

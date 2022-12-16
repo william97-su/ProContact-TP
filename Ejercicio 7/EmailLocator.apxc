@@ -1,0 +1,29 @@
+public class EmailLocator {
+
+    @future (callout=true)
+    public static void getEmailById(String Id){
+        Http http = new Http();
+        HttpRequest request = new HttpRequest();
+        request.setEndpoint('https://procontacto-reclutamiento-default-rtdb.firebaseio.com/contacts/'+ Id +'.json');
+        request.setMethod('GET');
+        HttpResponse response = http.send(request);
+        String email = '';
+        if(response.getStatusCode() == 200) {
+            Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
+            email = (String) results.get('email');
+            System.debug('Email obtenido '+ email);
+            setEmail(Id, email);
+    	}        
+   }
+    public static void setEmail(String Id, String email){
+			   List<Contact> contcLst = [SELECT Id, Name, LastName, Email FROM Contact WHERE idprocontacto__c=:Id];
+        	   List<Contact> contcToUpadate = new List<Contact>();
+                for(Contact cont : contcLst){
+                    if ( cont.Email != email){
+                        cont.Email = email;
+                        contcToUpadate.add(cont);
+                    }
+                }
+        	   update contcToUpadate;
+    }
+}
