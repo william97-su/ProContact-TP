@@ -608,4 +608,5 @@ Salesforce Billing complementa las plataformas de planificación de recursos de 
 
 <img align="" alt="img" src="https://user-images.githubusercontent.com/75348924/208192314-9caf4f85-305a-474e-90f6-231fdc37aaa3.PNG" width="" height="auto" />
 
-- <b>C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con TU id obtenido en el punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto. </b>
+- <b>C.	Desarrollar un trigger para que cuando un usuario Modifica o Crea un contacto de Salesforce completando el campo generado el punto B con TU id obtenido en el punto A, se invoque al Web Service con el idprocontacto obtenga los datos de email de la respuesta y actualice el campo email del contacto.
+- El Codigo de este ejercicio se encuentra en el repositorio. </b>
