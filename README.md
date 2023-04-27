@@ -59,7 +59,7 @@ Hoy en día, es uno de los más usados por aquellos que se dedican a la gestión
 
 El formato JSON (JavaScript Object Notation) es un formato abierto utilizado como alternativa al XML. El formato ganó popularidad en servicios de la Web, dado que consigue transmitir una gran cantidad de información entre el cliente y el servidor utilizando una menor cantidad de caracteres.
 
-<b>Estrucutra JSON</b>
+<b>Estructra JSON</b>
 
 ```JSON
 {
